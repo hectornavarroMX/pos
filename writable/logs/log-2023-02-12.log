@@ -1,0 +1,43 @@
+CRITICAL - 2023-02-12 23:04:45 --> syntax error, unexpected end of file
+in APPPATH\Views\unidades\Unidades.php on line 3.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('unidades/unidades', [], true)
+ 3 APPPATH\Controllers\Unidades.php(23): view('unidades/unidades')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unidades->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 23:04:58 --> Undefined variable: datos
+in APPPATH\Controllers\Unidades.php on line 23.
+ 1 APPPATH\Controllers\Unidades.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Controllers\\Unidades.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unidades->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 23:05:17 --> syntax error, unexpected end of file
+in APPPATH\Views\unidades\Unidades.php on line 3.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('unidades/unidades', [], true)
+ 3 APPPATH\Controllers\Unidades.php(23): view('unidades/unidades', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unidades->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 23:05:31 --> syntax error, unexpected end of file
+in APPPATH\Views\unidades\Unidades.php on line 3.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('unidades/unidades', [], true)
+ 3 APPPATH\Controllers\Unidades.php(23): view('unidades/unidades', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unidades->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 23:05:33 --> syntax error, unexpected end of file
+in APPPATH\Views\unidades\Unidades.php on line 3.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('unidades/unidades', [], true)
+ 3 APPPATH\Controllers\Unidades.php(23): view('unidades/unidades', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Unidades->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

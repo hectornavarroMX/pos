@@ -60,8 +60,8 @@
                             data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="layout-static.html">Productos</a>
-                                <a class="nav-link" href="layout-sidenav-light.html">Unidades</a>
-                                <a class="nav-link" href="layout-sidenav-light.html">Categorías</a>
+                                <a class="nav-link" href="<?php echo base_url(); ?>/unidades">Unidades</a>
+                                <a class="nav-link" href="">Categorías</a>
                             </nav>
                         </div>
                         <div class="sb-sidenav-menu-heading">Interface</div>
@@ -70,7 +70,10 @@
                 </div>
                 <div class="sb-sidenav-footer">
                     <div class="small">Logged in as:</div>
-                    Start Bootstrap
+                    El Papi
                 </div>
             </nav>
         </div>
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid px-4">
