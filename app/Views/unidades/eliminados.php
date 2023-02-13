@@ -4,8 +4,7 @@
     <div class="card mb-4">
         <div class="card-header">
             <i class="fas fa-table me-1"></i>
-            <a href="<?= base_url(); ?>/unidades/nuevo" class="btn btn-success" type="submit">Agregar</a>
-            <a href="<?= base_url(); ?>/unidades/eliminados" class="btn btn-warning" type="button">Eliminados</a>
+            <a href="<?= base_url(); ?>/unidades/" class="btn btn-primary" type="button">Regresar</a>
         </div>
         <div class="card-body">
             <table id="datatablesSimple">
@@ -30,10 +29,8 @@
                                 <?php echo $dato['nombre_corto'] ?>
                             </td>
                             <td>
-                                <a href="<?php echo base_url().'/unidades/editar/'.$dato['id']?>" class="btn btn-primary"
-                                    type="submit"><i class="fas fa-pencil-alt"></i></a>
-                                <a href="<?php echo base_url().'/unidades/eliminar/'.$dato['id']?>" class="btn btn-danger"
-                                    type="submit"><i class="fas fa-trash"></i></a>
+                                <a href="<?php echo base_url().'/unidades/reingresar/'.$dato['id']?>" class="btn btn-primary"
+                                    type="submit"><i class="fas fa-arrow-alt-circle-up"></i></a>
                             </td>
 
                         </tr>

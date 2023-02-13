@@ -92,5 +92,15 @@ class Unidades extends BaseController
         return redirect()->to(base_url() . '/unidades');
     }
 
+    public function reingresar($id)
+    {
+        $this->unidades->update(
+            $id,
+            [
+                'activo' => 1
+            ]
+        );
+        return redirect()->to(base_url() . '/unidades');
+    }
 
 }
