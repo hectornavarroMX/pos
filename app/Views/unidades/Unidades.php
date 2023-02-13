@@ -16,7 +16,6 @@
                         <th>Descripción</th>
                         <th>Abreviación</th>
                         <th></th>
-                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -32,12 +31,12 @@
                                 <?php echo $dato['nombre_corto'] ?>
                             </td>
                             <td>
-                                <a href="<?= base_url(); ?>/unidades/nuevo" class="btn btn-success"
-                                    type="submit">Agregar</a>
+                                <a href="<?= base_url(); ?>/unidades/editar" class="btn btn-primary"
+                                    type="submit"><i class="fas fa-pencil-alt"></i></a>
+                                <a href="<?= base_url(); ?>/unidades/eliminar" class="btn btn-danger"
+                                    type="submit"><i class="fas fa-trash"></i></a>
                             </td>
-                            <td>
-                            <a href="<?= base_url(); ?>/unidades/nuevo" class="btn btn-success"
-                                    type="submit">Agregar</a>                            </td>
+
                         </tr>
 
                     <?php } ?>
