@@ -61,7 +61,7 @@
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="layout-static.html">Productos</a>
                                 <a class="nav-link" href="<?php echo base_url(); ?>/unidades">Unidades</a>
-                                <a class="nav-link" href="">Categorías</a>
+                                <a class="nav-link" href="<?php echo base_url(); ?>/categorias">Categorías</a>
                             </nav>
                         </div>
                         <div class="sb-sidenav-menu-heading">Interface</div>
