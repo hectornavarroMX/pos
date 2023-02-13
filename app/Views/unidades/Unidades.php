@@ -1,4 +1,3 @@
-<div class="container-fluid px-4">
     <h1 class="mt-4">
         <?= $titulo ?>
     </h1>
@@ -31,9 +30,9 @@
                                 <?php echo $dato['nombre_corto'] ?>
                             </td>
                             <td>
-                                <a href="<?= base_url(); ?>/unidades/editar" class="btn btn-primary"
+                                <a href="<?php echo base_url().'/unidades/editar/'.$dato['id']?>" class="btn btn-primary"
                                     type="submit"><i class="fas fa-pencil-alt"></i></a>
-                                <a href="<?= base_url(); ?>/unidades/eliminar" class="btn btn-danger"
+                                <a href="<?php echo base_url().'/unidades/eliminar/'.$dato['id']?>" class="btn btn-danger"
                                     type="submit"><i class="fas fa-trash"></i></a>
                             </td>
 
